@@ -7,7 +7,7 @@ Novità:
 - Generazione hard-negatives in unsupervised basata sugli autovettori
   della covarianza (oltre l’ellissoide principale)
 - Supporto per allenamento supervisionato o non supervisionato
-- Funzioni di normalizzazione integrate e riflessione dei negativi
+- Funzioni di normalizzazione integrate e riflessione dei negativi.
 """
 
 import math
