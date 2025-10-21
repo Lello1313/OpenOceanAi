@@ -1,0 +1,115 @@
+{
+  "args": {
+    "meta_csv": "meta/ships_segments.csv",
+    "out_dir": "outputs/openset_splits",
+    "filename_col": "filename",
+    "label_col": "category",
+    "recording_regex": "^(?:.*[\\\\/])?([^\\\\/]+?)(?:[-_]?seg\\d+|[_-]?\\d+)?(?:\\.[A-Za-z0-9]+)?$",
+    "seed": 42,
+    "seen_json": "",
+    "seen_names": "Motorboat,Mussel boat,Ocean liner,Passengers,Pilot ship,RORO,Sailboat",
+    "num_seen": 9,
+    "unknown_aliases": "-1,unknown,UNKNOWN,Unknown",
+    "min_recordings_per_class": 2,
+    "unseen_sample_per_class": 0,
+    "disable_test_mixed": false
+  },
+  "seen_names": [
+    "Motorboat",
+    "Mussel boat",
+    "Ocean liner",
+    "Passengers",
+    "Pilot ship",
+    "RORO",
+    "Sailboat"
+  ],
+  "unknown_aliases": [
+    "-1",
+    "UNKNOWN",
+    "Unknown",
+    "unknown"
+  ],
+  "n_train_seen": 1595,
+  "n_holdout_seen": 149,
+  "n_unseen_pool": 449,
+  "per_class_info": [
+    {
+      "class": "Motorboat",
+      "clips_total": 196,
+      "recs_total": 13,
+      "holdout_rec": "50__23_07_13_H3_lancha1"
+    },
+    {
+      "class": "Mussel boat",
+      "clips_total": 144,
+      "recs_total": 5,
+      "holdout_rec": "49__23_07_13_H1_bateero4"
+    },
+    {
+      "class": "Ocean liner",
+      "clips_total": 186,
+      "recs_total": 7,
+      "holdout_rec": "25__19_07_13_adventureOfTheSea_llegando"
+    },
+    {
+      "class": "Passengers",
+      "clips_total": 813,
+      "recs_total": 28,
+      "holdout_rec": "54__23_07_13_H3_PirataSalvora_SALE1"
+    },
+    {
+      "class": "Pilot ship",
+      "clips_total": 26,
+      "recs_total": 2,
+      "holdout_rec": "29__19_07_13_practico"
+    },
+    {
+      "class": "RORO",
+      "clips_total": 300,
+      "recs_total": 5,
+      "holdout_rec": "78__23_07_13_H3_vikingChance"
+    },
+    {
+      "class": "Sailboat",
+      "clips_total": 79,
+      "recs_total": 4,
+      "holdout_rec": "37__19_07_13_Velero_Sale"
+    }
+  ],
+  "holdout_recordings": [
+    [
+      "Motorboat",
+      "50__23_07_13_H3_lancha1"
+    ],
+    [
+      "Mussel boat",
+      "49__23_07_13_H1_bateero4"
+    ],
+    [
+      "Ocean liner",
+      "25__19_07_13_adventureOfTheSea_llegando"
+    ],
+    [
+      "Passengers",
+      "54__23_07_13_H3_PirataSalvora_SALE1"
+    ],
+    [
+      "Pilot ship",
+      "29__19_07_13_practico"
+    ],
+    [
+      "RORO",
+      "78__23_07_13_H3_vikingChance"
+    ],
+    [
+      "Sailboat",
+      "37__19_07_13_Velero_Sale"
+    ]
+  ],
+  "saved": {
+    "train_seen_csv": "outputs/openset_splits\\train_seen.csv",
+    "holdout_seen_csv": "outputs/openset_splits\\holdout_seen.csv",
+    "unseen_pool_csv": "outputs/openset_splits\\unseen_pool.csv",
+    "test_mixed_csv": "outputs/openset_splits\\test_mixed.csv"
+  }
+}

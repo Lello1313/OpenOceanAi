@@ -1,0 +1,65 @@
+{
+  "unseen_classes": [
+    "Passengers",
+    "RORO",
+    "Motorboat"
+  ],
+  "k_shot": 10,
+  "strategy": "max",
+  "n_unseen": 3,
+  "support_size": 30,
+  "query_size": 1279,
+  "norm": "zscore",
+  "cov_mode": "support_lw",
+  "cosine": {
+    "accuracy": 0.9374511336982018,
+    "macro_f1": 0.9245412858738272,
+    "weighted_f1": 0.9397390040319531,
+    "per_class": {
+      "Passengers": {
+        "precision": 1.0,
+        "recall": 0.900373599003736,
+        "f1-score": 0.9475753604193972,
+        "support": 803.0
+      },
+      "RORO": {
+        "precision": 0.9508196721311475,
+        "recall": 1.0,
+        "f1-score": 0.9747899159663865,
+        "support": 290.0
+      },
+      "Motorboat": {
+        "precision": 0.7410358565737052,
+        "recall": 1.0,
+        "f1-score": 0.851258581235698,
+        "support": 186.0
+      }
+    },
+    "silhouette_on_unseen": 0.5533608794212341
+  },
+  "mahalanobis": {
+    "accuracy": 0.9515246286161063,
+    "macro_f1": 0.9400846325363856,
+    "weighted_f1": 0.9531107164621934,
+    "per_class": {
+      "Passengers": {
+        "precision": 1.0,
+        "recall": 0.9227895392278954,
+        "f1-score": 0.9598445595854922,
+        "support": 803.0
+      },
+      "RORO": {
+        "precision": 0.9666666666666667,
+        "recall": 1.0,
+        "f1-score": 0.9830508474576272,
+        "support": 290.0
+      },
+      "Motorboat": {
+        "precision": 0.7815126050420168,
+        "recall": 1.0,
+        "f1-score": 0.8773584905660378,
+        "support": 186.0
+      }
+    }
+  }
+}

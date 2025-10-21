@@ -1,0 +1,65 @@
+{
+  "unseen_classes": [
+    "Passengers",
+    "RORO",
+    "Natural ambient noise"
+  ],
+  "k_shot": 10,
+  "strategy": "max",
+  "n_unseen": 3,
+  "support_size": 30,
+  "query_size": 1307,
+  "norm": "zscore",
+  "cov_mode": "support_lw",
+  "cosine": {
+    "accuracy": 0.9671002295332823,
+    "macro_f1": 0.96550641502464,
+    "weighted_f1": 0.9674388329768517,
+    "per_class": {
+      "Passengers": {
+        "precision": 1.0,
+        "recall": 0.9464508094645081,
+        "f1-score": 0.9724888035828535,
+        "support": 803.0
+      },
+      "RORO": {
+        "precision": 0.8950617283950617,
+        "recall": 1.0,
+        "f1-score": 0.9446254071661238,
+        "support": 290.0
+      },
+      "Natural ambient noise": {
+        "precision": 0.9596412556053812,
+        "recall": 1.0,
+        "f1-score": 0.9794050343249427,
+        "support": 214.0
+      }
+    },
+    "silhouette_on_unseen": 0.5997718572616577
+  },
+  "mahalanobis": {
+    "accuracy": 0.9525631216526397,
+    "macro_f1": 0.947688819326562,
+    "weighted_f1": 0.9529886752472327,
+    "per_class": {
+      "Passengers": {
+        "precision": 1.0,
+        "recall": 0.9227895392278954,
+        "f1-score": 0.9598445595854922,
+        "support": 803.0
+      },
+      "RORO": {
+        "precision": 0.8950617283950617,
+        "recall": 1.0,
+        "f1-score": 0.9446254071661238,
+        "support": 290.0
+      },
+      "Natural ambient noise": {
+        "precision": 0.8842975206611571,
+        "recall": 1.0,
+        "f1-score": 0.9385964912280702,
+        "support": 214.0
+      }
+    }
+  }
+}

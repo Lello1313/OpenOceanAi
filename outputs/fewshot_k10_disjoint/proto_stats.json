@@ -1,0 +1,17 @@
+{
+  "Passengers": {
+    "intra_mean_l2_to_proto": 2.736412525177002
+  },
+  "RORO": {
+    "intra_mean_l2_to_proto": 6.197924613952637
+  },
+  "Natural ambient noise": {
+    "intra_mean_l2_to_proto": 5.364013195037842
+  },
+  "Motorboat": {
+    "intra_mean_l2_to_proto": 6.498984336853027
+  },
+  "Ocean liner": {
+    "intra_mean_l2_to_proto": 6.692276954650879
+  }
+}

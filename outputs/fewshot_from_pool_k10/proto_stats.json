@@ -1,0 +1,17 @@
+{
+  "Dredger": {
+    "intra_mean_l2_to_proto": 12.90333366394043
+  },
+  "Fishboat": {
+    "intra_mean_l2_to_proto": 12.270359992980957
+  },
+  "Natural ambient noise": {
+    "intra_mean_l2_to_proto": 7.378542423248291
+  },
+  "Trawler": {
+    "intra_mean_l2_to_proto": 10.132046699523926
+  },
+  "Tugboat": {
+    "intra_mean_l2_to_proto": 9.883443832397461
+  }
+}

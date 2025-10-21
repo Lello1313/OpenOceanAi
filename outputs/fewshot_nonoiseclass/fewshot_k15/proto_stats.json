@@ -1,0 +1,11 @@
+{
+  "Passengers": {
+    "intra_mean_l2_to_proto": 7.6724677085876465
+  },
+  "RORO": {
+    "intra_mean_l2_to_proto": 9.010649681091309
+  },
+  "Motorboat": {
+    "intra_mean_l2_to_proto": 9.261201858520508
+  }
+}

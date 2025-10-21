@@ -1,0 +1,91 @@
+{
+  "unseen_classes": [
+    "Dredger",
+    "Fishboat",
+    "Natural ambient noise",
+    "Trawler",
+    "Tugboat"
+  ],
+  "k_shot": 5,
+  "strategy": "max",
+  "n_unseen": 5,
+  "support_size": 50,
+  "query_size": 399,
+  "norm": "zscore",
+  "cov_mode": "support_lw",
+  "cosine": {
+    "accuracy": 0.7192982456140351,
+    "macro_f1": 0.5569353274511472,
+    "weighted_f1": 0.7140058283260442,
+    "per_class": {
+      "Dredger": {
+        "precision": 0.3488372093023256,
+        "recall": 0.35714285714285715,
+        "f1-score": 0.35294117647058826,
+        "support": 42.0
+      },
+      "Fishboat": {
+        "precision": 0.6578947368421053,
+        "recall": 0.27472527472527475,
+        "f1-score": 0.3875968992248062,
+        "support": 91.0
+      },
+      "Natural ambient noise": {
+        "precision": 0.9626168224299065,
+        "recall": 0.9626168224299065,
+        "f1-score": 0.9626168224299065,
+        "support": 214.0
+      },
+      "Trawler": {
+        "precision": 0.3,
+        "recall": 0.9545454545454546,
+        "f1-score": 0.45652173913043476,
+        "support": 22.0
+      },
+      "Tugboat": {
+        "precision": 0.5882352941176471,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.625,
+        "support": 30.0
+      }
+    },
+    "silhouette_on_unseen": 0.26159021258354187
+  },
+  "mahalanobis": {
+    "accuracy": 0.9022556390977443,
+    "macro_f1": 0.8334413589645117,
+    "weighted_f1": 0.9067363778720459,
+    "per_class": {
+      "Dredger": {
+        "precision": 0.8076923076923077,
+        "recall": 1.0,
+        "f1-score": 0.8936170212765957,
+        "support": 42.0
+      },
+      "Fishboat": {
+        "precision": 1.0,
+        "recall": 0.6703296703296703,
+        "f1-score": 0.8026315789473685,
+        "support": 91.0
+      },
+      "Natural ambient noise": {
+        "precision": 1.0,
+        "recall": 0.9813084112149533,
+        "f1-score": 0.9905660377358491,
+        "support": 214.0
+      },
+      "Trawler": {
+        "precision": 0.4782608695652174,
+        "recall": 1.0,
+        "f1-score": 0.6470588235294118,
+        "support": 22.0
+      },
+      "Tugboat": {
+        "precision": 0.8333333333333334,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.8333333333333334,
+        "support": 30.0
+      }
+    }
+  }
+}

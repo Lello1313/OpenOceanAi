@@ -1,0 +1,11 @@
+{
+  "Passengers": {
+    "intra_mean_l2_to_proto": 7.717792510986328
+  },
+  "RORO": {
+    "intra_mean_l2_to_proto": 9.577165603637695
+  },
+  "Natural ambient noise": {
+    "intra_mean_l2_to_proto": 8.278228759765625
+  }
+}

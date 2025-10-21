@@ -1,0 +1,94 @@
+{
+  "unseen_classes": [
+    "Passengers",
+    "RORO",
+    "Natural ambient noise",
+    "Motorboat",
+    "Ocean liner"
+  ],
+  "k_shot": 10,
+  "strategy": "max",
+  "n_unseen": 5,
+  "support_size": 50,
+  "query_size": 600,
+  "norm": "zscore",
+  "cov_mode": "support_diag",
+  "cosine": {
+    "accuracy": 0.85,
+    "macro_f1": 0.6581875912347298,
+    "weighted_f1": 0.8805134658059696,
+    "per_class": {
+      "Passengers": {
+        "precision": 0.9916666666666667,
+        "recall": 0.815068493150685,
+        "f1-score": 0.8947368421052632,
+        "support": 438.0
+      },
+      "RORO": {
+        "precision": 0.17142857142857143,
+        "recall": 1.0,
+        "f1-score": 0.2926829268292683,
+        "support": 6.0
+      },
+      "Natural ambient noise": {
+        "precision": 0.7391304347826086,
+        "recall": 0.85,
+        "f1-score": 0.7906976744186046,
+        "support": 60.0
+      },
+      "Motorboat": {
+        "precision": 0.9354838709677419,
+        "recall": 1.0,
+        "f1-score": 0.9666666666666667,
+        "support": 87.0
+      },
+      "Ocean liner": {
+        "precision": 0.20930232558139536,
+        "recall": 1.0,
+        "f1-score": 0.34615384615384615,
+        "support": 9.0
+      }
+    },
+    "silhouette_on_unseen": 0.3818133473396301,
+    "abstain_margin": 0.08,
+    "coverage": 0.61,
+    "acc_on_covered": 0.8579234972677595
+  },
+  "mahalanobis": {
+    "accuracy": 0.8533333333333334,
+    "macro_f1": 0.795528463649698,
+    "weighted_f1": 0.8723688997233224,
+    "per_class": {
+      "Passengers": {
+        "precision": 0.9971671388101983,
+        "recall": 0.8036529680365296,
+        "f1-score": 0.8900126422250316,
+        "support": 438.0
+      },
+      "RORO": {
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1-score": 0.8,
+        "support": 6.0
+      },
+      "Natural ambient noise": {
+        "precision": 0.43609022556390975,
+        "recall": 0.9666666666666667,
+        "f1-score": 0.6010362694300518,
+        "support": 60.0
+      },
+      "Motorboat": {
+        "precision": 0.9886363636363636,
+        "recall": 1.0,
+        "f1-score": 0.9942857142857143,
+        "support": 87.0
+      },
+      "Ocean liner": {
+        "precision": 0.5294117647058824,
+        "recall": 1.0,
+        "f1-score": 0.6923076923076923,
+        "support": 9.0
+      }
+    }
+  }
+}
