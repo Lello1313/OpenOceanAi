@@ -10,7 +10,7 @@ Novità:
 - Funzioni di normalizzazione integrate e riflessione dei negativi
 """
 
-import mathhhhhhh
+import math
 import torch
 import torch.nn as nn
 from typing import Optional, Tuple
