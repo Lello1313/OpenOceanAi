@@ -1,0 +1,9 @@
+.idea
+.venv
+audio
+cache*
+meta
+outputs/*/*.pt
+shipsear_core
+shipsear_segments
+.DS_Store
